@@ -28,3 +28,37 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Config the Tailwind in project
+
+This project is used to test the Tailwind CSS framework
+
+- Instal `Tailwind` please refer to the [link](https://tailwindcss.com/docs/guides/vite)
+- Check the `prettier` to do formatting: `prettier` and `prettier-plugin-tailwindcss`
+- Set the prettier configuration file `.prettierrc`
+
+```.prettierrc
+
+{
+
+  "semi": false,
+
+  "singleQuote": true,
+
+  "jsxSingleQuote": true,
+
+  "trailingComma": "all",
+
+  "tabWidth": 2,
+
+  "printWidth": 80,
+
+  "plugins": [
+
+    "prettier-plugin-tailwindcss"
+
+  ]
+
+}
+
+```
